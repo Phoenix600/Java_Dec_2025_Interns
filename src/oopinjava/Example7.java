@@ -1,5 +1,8 @@
 package oopinjava;
 
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
 class Animal
 {
     // data members
@@ -111,7 +114,6 @@ public class Example7 {
         System.out.println("Name  : " + bruno.getName());
         System.out.println("Age   : " + bruno.getAge());
         System.out.println("Breed : " + bruno.getBreed());
-
 
         //  Parent Can Hold The Object Of Child
         Animal animal1 = new Dog("Rani",12,"STREET");
